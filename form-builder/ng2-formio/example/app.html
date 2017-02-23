@@ -1,0 +1,10 @@
+<!--<formio src="https://pjmfogrfqptslvi.form.io/test" (render)="onRender()" (submit)="onSubmit($event)"></formio>-->
+<div style="width:100%%;">
+    <div style="width:41%;margin:auto;">
+        <span><h1><span style="color:#1AAFBE;">Ideas2it </span><span style="color:#2ca943;">Dyamic JSON powered form</span></h1>
+        </span>
+    </div>
+</div>
+<div style="width:65%;margin:auto;margin-top:2%;">
+    <formio [form]="form" [submission]="submission" (render)="onRender()" (submit)="onSubmit($event)" (change)="onChange($event)"></formio>
+</div>
